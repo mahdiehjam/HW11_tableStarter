@@ -2,9 +2,13 @@
   box-sizing: border-box;
 }
 
+body, html{
+  height: 100%;
+}
+
 body {
   background-color:#073148;
-  background-image: linear-gradient(60deg, #073148  0%, #2a28a5 100%);
+  background-image: linear-gradient(140deg, #073148  0%, #322fbd 100%);
   display: flex;
   justify-content: center;
 }
