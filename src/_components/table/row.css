@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+input , select , button{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(231, 231, 221);
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.103);
+}
+
