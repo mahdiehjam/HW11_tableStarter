@@ -1,0 +1,16 @@
+.pageNumber{
+    list-style-type: none;
+}
+    
+.pageNumber > li{
+    display: inline-block;
+    background: rgb(183, 216, 238);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;  
+}
+
+.pageNumber > li:hover{
+    background: rgb(8, 38, 58);
+    color: #FFF;
+}
