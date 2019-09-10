@@ -143,7 +143,7 @@ export default class Table extends Component {
                 />
                 <tbody>
                     {currentrows.map((row, index) => {
-                        return <Row key={row.id} row={row} columns={columns} onDelete={deleteRow(row.id)} onEdit={editRow} />
+                        return <Row key={row.id} row={row} columns={columns} onDelete={deleteRow(row.id)} onEdit={editRow}/>
                     })}
                 </tbody>
             </table>
